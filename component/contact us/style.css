@@ -1,0 +1,181 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.navbar {
+  height: 75px;
+  background-color: #31363f;
+  display: flex;
+  color: aliceblue;
+}
+.logo {
+  flex: 1;
+  font-size: 40px;
+  padding: 10px 30px;
+  font-weight: 700;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.logo span {
+  color: orangered;
+}
+.menu {
+  flex: 4;
+}
+#list {
+  display: flex;
+  justify-content: space-around;
+}
+#list a {
+  text-decoration: none;
+  font-size: 22px;
+  color: orangered;
+  transition: all 0.5s ease;
+}
+#list a:hover {
+  color: aliceblue;
+  font-size: 24px;
+}
+#list li {
+  list-style: none;
+  padding-top: 20px;
+}
+.contus {
+  height: 90vh;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content {
+  height: 85vh;
+  width: 80%;
+  background-color: #0f0a28;
+  border-radius: 2%;
+  display: flex;
+}
+.right_content {
+  flex: 1.25;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+form {
+  height: 475px;
+  width: 450px;
+}
+form p {
+  font-size: 20px;
+  color: white;
+  padding-left: 5px;
+}
+form .name {
+  height: 40px;
+  width: 430px;
+  border-radius: 8%;
+  font-size: 20px;
+}
+form #email {
+  height: 40px;
+  width: 430px;
+  border-radius: 8%;
+  font-size: 20px;
+}
+form #phone {
+  height: 40px;
+  width: 430px;
+  border-radius: 8%;
+  font-size: 20px;
+}
+form #message {
+  border-radius: 5%;
+  font-size: 20px;
+}
+form button {
+  height: 35px;
+  width: 105px;
+  border-radius: 10px;
+  color: white;
+  font-weight: 300;
+  background-color: rgb(108, 4, 226);
+  transition: all 0.5s ease;
+}
+form button:hover {
+  background-color: #fff;
+  color: black;
+  height: 40px;
+  width: 110px;
+  cursor: pointer;
+}
+form div {
+  display: flex;
+}
+.left_content {
+  flex: 1.2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.information {
+  height: 475px;
+  width: 450px;
+  color: white;
+}
+.information h2 {
+  font-size: 50px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 900;
+}
+.information p {
+  font-size: 20px;
+  color: azure;
+  font-family: "Times New Roman";
+}
+.logo3 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.icons {
+  display: flex;
+  justify-content: center;
+  background-color: #31363f;
+  height: 50px;
+}
+.footer {
+  background-color: #31363f;
+  height: 30vh;
+  display: flex;
+  justify-content: space-around;
+  font-size: 1.2rem;
+  color: aliceblue;
+}
+.footer p {
+  padding: 60px 60px;
+}
+.icon {
+  display: flex;
+  justify-content: center;
+  height: 50px;
+}
+.icon ion-icon {
+  color: #fff;
+  font-size: 30px;
+  padding-left: 14px;
+  padding-top: 5px;
+  transition: 0.3s ease;
+}
+.icon ion-icon:hover {
+  color: rgb(33, 33, 142);
+  font-size: 34px;
+}
+.icons ion-icon {
+  color: #fff;
+  font-size: 30px;
+  padding-left: 14px;
+  padding-top: 5px;
+  transition: 0.3s ease;
+}
+.icons ion-icon:hover {
+  color: orangered;
+  font-size: 34px;
+}

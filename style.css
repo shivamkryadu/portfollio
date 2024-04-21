@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+}
+.navbar {
+  height: 75px;
+  background-color: #31363f;
+  display: flex;
+  color: aliceblue;
+}
+.logo { 
+  flex: 1;
+  font-size: 40px;
+  padding: 10px 30px;
+  font-weight: 700;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.logo span {
+  color: orangered;
+}
+.menu {
+  flex: 4;
+}
+#list {
+  display: flex;
+  justify-content: space-around;
+}
+#list a {
+  text-decoration: none;
+  font-size: 22px;
+  color: orangered;
+  transition: all 0.5s ease;
+}
+#list a:hover {
+  color: aliceblue;
+  font-size: 24px;
+}
+#list li {
+  list-style: none;
+  padding-top: 20px;
+}
+.main {
+  height: 80vh;
+  display: flex;
+  background-color: #18191b;
+}
+.left_section {
+  flex: 3;
+  font-size: 60px;
+  font-weight: 400px;
+  color: antiquewhite;
+  padding: 150px 100px;
+  cursor: pointer;
+}
+.left_section span {
+  color: rgb(173, 6, 6);
+}
+.left_section span:hover {
+  font-size: 65px;
+}
+.right_section {
+  flex: 2;
+  padding: 50px;
+}
+.right_section img {
+  height: 500px;
+  width: 400px;
+  transition: all 0.5s ease;
+}
+.footer {
+  background-color: #31363f;
+  height: 30vh;
+  display: flex;
+  justify-content: space-around;
+  font-size: 1.2rem;
+  color: aliceblue;
+}
+.footer p {
+  padding: 60px 60px;
+}
+.icons {
+  display: flex;
+  justify-content: center;
+  background-color: #31363f;
+  height: 50px;
+}
+.icons ion-icon {
+  color: #fff;
+  font-size: 30px;
+  padding-left: 14px;
+  padding-top: 5px;
+  transition: 0.3s ease;
+}
+.icons ion-icon:hover {
+  color: orangered;
+  font-size: 34px;
+}

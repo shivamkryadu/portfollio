@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+}
+.navbar {
+  height: 75px;
+  background-color: #31363f;
+  display: flex;
+  color: aliceblue;
+}
+.logo {
+  flex: 1;
+  font-size: 40px;
+  padding: 10px 30px;
+  font-weight: 700;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.logo span {
+  color: orangered;
+}
+.menu {
+  flex: 4;
+}
+#list {
+  display: flex;
+  justify-content: space-around;
+}
+#list a {
+  text-decoration: none;
+  font-size: 22px;
+  color: orangered;
+  transition: all 0.5s ease;
+}
+#list a:hover {
+  color: aliceblue;
+  font-size: 24px;
+}
+#list li {
+  list-style: none;
+  padding-top: 20px;
+}
+.resume {
+  height: 180vh;
+  background-color: #202329;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  padding-top: 40px;
+}
+.resume_section {
+  height: 170vh;
+  width: 90%;
+  background-color: #31363f;
+  display: flex;
+}
+.colmn1 {
+  flex: 1;
+  border: 2px solid beige;
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  flex-shrink: 1;
+}
+.colmn1 > div {
+  padding-left: 60px;
+}
+#profile_section {
+  flex: 1;
+}
+#profile_section img {
+  height: 210px;
+  width: 190px;
+  padding: 20px 80px;
+  border-radius: 50%;
+}
+#contact_section {
+  flex: 1;
+}
+#education_section {
+  flex: 1;
+}
+#skill_section {
+  flex: 1;
+}
+#lang_section {
+  flex: 0.6;
+}
+.colmn1 ul {
+  padding-left: 13px;
+}
+.colmn2 {
+  flex: 2;
+  border: 2px solid beige;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(240, 255, 255);
+}
+.upper_section {
+  flex: 1.25;
+  padding: 40px 20px;
+}
+.upper_section h1 {
+  font-weight: 500;
+  font-size: 80px;
+  font-style: oblique;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.upper_section h2 {
+  font-size: 30px;
+  font-weight: 400;
+  font-family: inherit;
+}
+.upper_section p {
+  font-size: 18px;
+  color: black;
+}
+.middle_section {
+  flex: 2;
+  padding: 0px 30px;
+}
+.middle_section p {
+  font-size: 22px;
+}
+.lower_section {
+  flex: 1.5;
+  padding: 0px 30px;
+}
+.footer {
+  background-color: #282b30;
+  height: 30vh;
+  display: flex;
+  justify-content: space-around;
+  font-size: 1.2rem;
+  color: aliceblue;
+}
+.footer p {
+  padding: 60px 60px;
+}
+.icons {
+  display: flex;
+  justify-content: center;
+  background-color: #31363f;
+  height: 50px;
+}
+.icons ion-icon {
+  color: #fff;
+  font-size: 30px;
+  padding-left: 14px;
+  padding-top: 5px;
+  transition: 0.3s ease;
+}
+.icons ion-icon:hover {
+  color: orangered;
+  font-size: 34px;
+}

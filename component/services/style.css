@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.navbar {
+  height: 75px;
+  background-color: #31363f;
+  display: flex;
+  color: aliceblue;
+}
+.logo {
+  flex: 1;
+  font-size: 40px;
+  padding: 10px 30px;
+  font-weight: 700;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.logo span {
+  color: orangered;
+}
+.menu {
+  flex: 4;
+}
+#list {
+  display: flex;
+  justify-content: space-around;
+}
+#list a {
+  text-decoration: none;
+  font-size: 22px;
+  color: orangered;
+  transition: all 0.5s ease;
+}
+#list a:hover {
+  color: aliceblue;
+  font-size: 24px;
+}
+#list li {
+  list-style: none;
+  padding-top: 20px;
+}
+.service {
+  height: 100vh;
+  background-color: rgb(5, 5, 34);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.service > div {
+  height: 75vh;
+  width: 350px;
+  background-color: rgb(6, 6, 43);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.5s ease;
+}
+.service .containt {
+  height: 70vh;
+  width: 300px;
+}
+.service h1 {
+  font-size: 60px;
+  color: #fff;
+  font-family: "Times New Roman";
+  font-weight: 400;
+}
+.service #usd {
+  color: #fff;
+  font-size: 45px;
+}
+.service span {
+  font-size: 60px;
+  color: #fff;
+}
+.service p {
+  color: #fff;
+  font-size: 20px;
+}
+.service .arrow {
+  font-size: 20px;
+  color: #fff;
+}
+.containt > span {
+  font-size: 20px;
+  color: #fff;
+}
+.service button {
+  height: 50px;
+  width: 180px;
+  background-color: #fff;
+  color: black;
+  font-size: 15px;
+  border-radius: 15px;
+  margin-left: 30px;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+.service button:hover {
+  height: 55px;
+  width: 195px;
+  border: 1px solid white;
+  color: white;
+  background-color: rgb(2, 2, 92);
+}
+.service > div:hover {
+  height: 78vh;
+  width: 355px;
+  border: 1px solid #fff;
+  background-color: rgb(1, 1, 52);
+  border-radius: 8%;
+}
+.footer {
+  background-color: #31363f;
+  height: 30vh;
+  display: flex;
+  justify-content: space-around;
+  font-size: 1.2rem;
+  color: aliceblue;
+}
+.footer p {
+  padding: 60px 60px;
+}
+.icons {
+  display: flex;
+  justify-content: center;
+  background-color: #31363f;
+  height: 50px;
+}
+.icons ion-icon {
+  color: #fff;
+  font-size: 30px;
+  padding-left: 14px;
+  padding-top: 5px;
+  transition: 0.3s ease;
+}
+.icons ion-icon:hover {
+  color: orangered;
+  font-size: 34px;
+}

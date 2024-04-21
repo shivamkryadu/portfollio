@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+}
+.navbar {
+  height: 75px;
+  background-color: #31363f;
+  display: flex;
+  color: aliceblue;
+}
+.logo {
+  flex: 1;
+  font-size: 40px;
+  padding: 10px 30px;
+  font-weight: 700;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.menu {
+  flex: 3;
+}
+#list {
+  display: flex;
+  justify-content: space-around;
+  font-size: 22px;
+  list-style: none;
+}
+#list a {
+  text-decoration: none;
+  color: orangered;
+  transition: all 0.5s ease;
+  padding-top: 20px;
+}
+#list a:hover {
+  color: aliceblue;
+  font-size: 24px;
+}
+.logo span {
+  color: orangered;
+}
+.about {
+  height: 90vh;
+  background-color: #1a1c20;
+  text-align: center;
+  display: flex;
+}
+.img {
+  flex: 1;
+  height: 100%;
+  text-align: center;
+  margin-top: 50px;
+  bottom: 2px solid white;
+}
+.img h1 {
+  color: #fff;
+  font-size: 40px;
+  font-weight: 400;
+  font-family: cursive;
+  display: inline;
+  transition: all 0.5s ease;
+}
+.img h1:hover {
+  color: orangered;
+  font-size: 45px;
+}
+.about img {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  padding: 50px;
+}
+.disc {
+  flex: 3;
+  height: 80%;
+  width: 80%;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  color: aliceblue;
+  font-size: 20px;
+  padding-right: 20px;
+}
+.disc div {
+  margin-top: 50px;
+  padding: 100px 40px;
+  border: 2px solid rgb(184, 17, 17);
+  border-radius: 5%;
+}
+.disc span {
+  font-size: 35px;
+  font-weight: 400;
+  color: orangered;
+}
+.footer {
+  background-color: #31363f;
+  height: 30vh;
+  display: flex;
+  justify-content: space-around;
+  font-size: 1.2rem;
+  color: aliceblue;
+}
+.footer p {
+  padding: 60px 60px;
+}
+.icons {
+  display: flex;
+  justify-content: center;
+  background-color: #31363f;
+  height: 50px;
+}
+.icons ion-icon {
+  color: #fff;
+  font-size: 30px;
+  padding-left: 14px;
+  padding-top: 5px;
+  transition: 0.3s ease;
+}
+.icons ion-icon:hover {
+  color: orangered;
+  font-size: 34px;
+}
